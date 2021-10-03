@@ -9,12 +9,13 @@ import { Title } from '@angular/platform-browser';
 export class TwoComponent {
  
 
-  constructor(private title:Title){this.title
+  constructor(private title:Title){
 
   }
 
   ngOnInit() {
-    this.title.setTitle("Two Component")
+    //alternative way is set title in route usind data properrty
+    //this.title.setTitle("Two Component")
  }
 
 }

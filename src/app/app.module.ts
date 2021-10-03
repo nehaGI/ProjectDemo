@@ -7,10 +7,17 @@ import { HelloComponent } from './hello.component';
 import { OneComponent } from './one/one.component';
 import { AppRoutingModule } from './app-routing.module';
 import { TwoComponent } from './two/two.component';
+import { ThreeComponent } from './three/three.component';
 
 @NgModule({
-  imports: [BrowserModule, FormsModule,AppRoutingModule],
-  declarations: [AppComponent, HelloComponent, OneComponent,TwoComponent],
+  imports: [BrowserModule, FormsModule, AppRoutingModule],
+  declarations: [
+    AppComponent,
+    HelloComponent,
+    OneComponent,
+    TwoComponent,
+    ThreeComponent
+  ],
   providers: [Title],
   bootstrap: [AppComponent],
 })
